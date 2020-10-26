@@ -1,25 +1,25 @@
-#incluem  <stdio.h> 
-#incluir  <string.h> 
+#include <stdio.h>
+#include <string.h>
 
-int principal() {
+int main() {
 char stA[20], stB[20];
 
-    enquanto(1) {
-        printf("\n Digite uma palavra ou dígito / para sair do programa: " );
-        recebe(stA);
+    while(1) {
+        printf("\n Digite uma palavra ou digite / para sair do programa: ");
+        gets(stA);
         
-		se (stA[0]!= '/') {
-            printf("\nDigite outra palavra: " );
-            recebe(stB);
+		if (stA[0] != '/') {
+            printf("\nDigite outra palavra: ");
+            gets(stB);
             
-		se (strcmp (stA, stB)) {
-            printf("\nDiferentes\n" );                
+		if (strcmp (stA, stB)) {
+            printf("\nDiferentes\n");                
             
-				} Mais {
-                	printf("\nIguais\n" );
+				} else {
+                	printf("\nIguais\n");
             }
-        		} Mais {
-            retorno printf("Fim do programa\n" );
+        		} else {
+            return printf("Fim do programa\n");
         }  
     }
 }
