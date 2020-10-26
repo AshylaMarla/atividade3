@@ -1,0 +1,18 @@
+#incluem  <stdio.h> 
+#incluir  <string.h> 
+
+int principal () {
+char st[20], stC[20];
+	
+	enquanto(1) {
+        printf ("\n Digite uma palavra ou dígito / para sair do programa: " );
+        recebe (st);
+        
+	se (st[0)] == '/') {
+        retorno printf("\n Fim do programa" );
+       
+	} Mais {
+        strcpy (stC, st);
+        printf ("\nFoi digitado: %s\n", stC);
+        }
+    }
