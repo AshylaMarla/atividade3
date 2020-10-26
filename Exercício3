@@ -1,0 +1,21 @@
+#incluem  <stdio.h> 
+#incluir  <string.h> 
+
+int principal() {
+char stA[20], stB[20];
+
+    enquanto(1) {
+        printf ("\nDigite uma palavra ou dígito / para sair do programa: " );
+        recebe (stA);
+        
+		se (stA[0]!= '/') {
+            printf ("\nDigite outra palavra: " );
+            recebe (stB);
+            strcat (stA, stB);
+            printf ("Soma das duas palavras digitadas: %s", stA);
+        	
+			} Mais {
+            	retorno printf ("Fim do programa\n" );
+        }  
+    }
+}
