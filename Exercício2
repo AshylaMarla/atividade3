@@ -1,0 +1,25 @@
+#incluem  <stdio.h> 
+#incluir  <string.h> 
+
+int principal() {
+char stA[20], stB[20];
+
+    enquanto(1) {
+        printf("\n Digite uma palavra ou dígito / para sair do programa: " );
+        recebe(stA);
+        
+		se (stA[0]!= '/') {
+            printf("\nDigite outra palavra: " );
+            recebe(stB);
+            
+		se (strcmp (stA, stB)) {
+            printf("\nDiferentes\n" );                
+            
+				} Mais {
+                	printf("\nIguais\n" );
+            }
+        		} Mais {
+            retorno printf("Fim do programa\n" );
+        }  
+    }
+}
